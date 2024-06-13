@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app_vet:
-    build: clinicaveterinaria/
+    build: clinicaveterinaria\Dockerfile
     mem_limit: 512m
     ports:
       - "8080:8080"
